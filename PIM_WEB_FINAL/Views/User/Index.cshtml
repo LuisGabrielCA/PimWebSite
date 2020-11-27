@@ -1,0 +1,209 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+    Layout = "_Layout.cshtml";
+
+}
+
+
+<div class="template">
+    <header id="site-header" class="fixed-top">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-dark stroke">
+                <a class="navbar-brand">
+                    <span class=""><img src="~/Index/assets/images/5.png" class="img-fluid" alt=""></span> Bitcoin Wallet
+                </a>
+                <button class="navbar-toggler bg-gradient" type="button" data-toggle="collapse"
+                        data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon fa fa-bars"> </span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link effect-3">
+                                @Html.ActionLink("Home", "Index")
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link effect-3">
+                                @Html.ActionLink("Cadastrar", "Registration1")
+                            </a>
+                        </li>
+                    </ul>
+
+                </div>
+            </nav>
+        </div>
+    </header>
+</div>
+
+<section class="w3l-banner-main">
+
+
+    <div class="bannerhny-content text-center">
+        <h3 data-aos="fade-up">
+            Gerencie seu tempo com compras praticas e tenha
+            <span>uma carteira</span><br> organizada!
+        </h3>
+        <h6 data-aos="fade-up">Clique e junte-se a nós</h6>
+        <div class="banner-button" data-aos="fade-down">
+            <a class="btn" @Html.ActionLink("Cadastre Agora", "Registration1")
+                </a>
+        </div>
+    </div>
+
+</section>
+
+
+
+
+<section class="w3l-content-w-photo-6">
+
+    <div class="content-photo-info py-5">
+        <div class="container py-lg-3">
+            <h3 class="hny-title text-center">
+                Características
+            </h3>
+
+
+            <div class="content-photo-grids row py-lg-5 py-4 mt-lg-5 mt-4 px-lg-5">
+
+                <div class="photo-6-inf-right col-lg-6 text-left pr-lg-5" data-aos="fade-down">
+                    <h4>
+                        Fácil de acessar e
+                        comprar suas bitcoins!
+                    </h4>
+                    <p>
+                        Nosso aplicativo é super pratico, você faz o seu cadastro em nosso site
+                        e pelo aplicativo de gerencia suas compras com métodos de pagamento dos mais variáveis e toda a praticidade de um app intuitivo e organizado.
+                    </p>
+                </div>
+                <div class="photo-6-inf-left col-lg-6 pr-lg-4" data-aos="fade-up">
+                    <img src="~/Index/assets/images/4.png" class="img-fluid" alt="">
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+</section>
+
+<section class="w3l-macbook-content-6">
+    <div class="macbook-infohny">
+
+        <div class="container-fuild">
+            <div class="row macbook-infohny-inn mx-lg-0">
+                <div class="col-lg-6 macbook-left mt-lg-0 mt-5 px-lg-0" data-aos="fade-up">
+                    <img src="~/Index/assets/images/pc.jpg" class="img-fluid" alt="">
+                </div>
+                <div class="col-lg-6 macbook-right my-lg-5 py-lg-5 py-4" data-aos="fade-down">
+                    <h3 class="hny-title mb-lg-5">
+                        Fornecemos o melhor serviço ao consumidor
+                    </h3>
+                    <div class="row macbook-right-grids mb-lg-5 mb-4">
+                        <div class="col-md-2 macbook-right-icon">
+                            <div class="macbook-icon">
+                                <span class="fa fa-clock-o"></span>
+                            </div>
+                        </div>
+                        <div class="col-md-10 macbook-right-info">
+                            <h6><a href="blog-single.html">Não perca tempo </a></h6>
+                            <p>
+                                Nosso sistema usa as melhores tecnologias do mercado. sua compra é
+                                computada o mais rápido possível e suas bitcoins são disponibilizadas para uso em tempo recorde!
+                            </p>
+                        </div>
+
+                    </div>
+                    <div class="row macbook-right-grids mb-5 mt-lg-0 mt-5">
+                        <div class="col-md-2 macbook-right-icon">
+                            <div class="macbook-icon">
+                                <span class="fa fa-podcast"></span>
+                            </div>
+                        </div>
+                        <div class="col-md-10 macbook-right-info">
+                            <h6><a href="blog-single.html">Interface intuitiva</a></h6>
+                            <p>
+                                É um usuário novo nesse mercado? Não se assuste, nossa plataforma foi feita pensando em todos os tipos de pessoas,
+                                temos o sistema mais intuitivo do mercado pensando em novos usuários que querem começar de forma prática.
+                            </p>
+                        </div>
+
+                    </div>
+                    <div class="row macbook-right-grids mb-lg-0 mb-4">
+                        <div class="col-md-2 macbook-right-icon">
+                            <div class="macbook-icon">
+                                <span class="fa fa-database"></span>
+                            </div>
+                        </div>
+                        <div class="col-md-10 macbook-right-info">
+                            <h6><a href="blog-single.html">Acesso rápido</a></h6>
+                            <p>
+                                Para que perder tempo com cadastros burocráticos? Aqui na BitcoinWallet você preenche o seu cadastro e já começa a comprar sem burocracias.
+                            </p>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<section class="w3l-content-5">
+
+    <div class="content-5-main">
+        <div class="container">
+            <div class="content-info-in pt-5">
+                <div class="content-gd pt-lg-5">
+                    <h3 class="hny-title" data-aos="fade-up">
+                        Estamos aqui para lhe trazer praticidade!
+                    </h3>
+                    <p data-aos="fade-up">
+                        Não perca tempo com plataformas burocráticas e lentas, aqui seus dados são protegidos e suas transações são rápidas e eficientes!
+                    </p>
+                    <img src="~/Index/assets/images/tablet.jpg" class="img-fluid" alt="">
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<section class="w3l-download-main">
+
+    <div class="download-content text-center py-5">
+        <div class="container py-lg-3">
+            <h3 data-aos="fade-up">Baixe agora mesmo e comece a usar nosso app</h3>
+            <h6 data-aos="fade-up">Clique para baixar !</h6>
+            <div class="banner-button" data-aos="fade-up">
+                <a href="#" class="btn">Download</a>
+            </div>
+        </div>
+    </div>
+    </div>
+
+</section>
+
+<footer class="w3l-footer-16">
+    <div class="footer-content py-lg-5 py-4 text-center">
+        <div class="container">
+            <div class="copy-right">
+                <ul class="footer-gd-16">
+                    <li>© 2020 PIM. </li>
+
+                </ul>
+            </div>
+            <button onclick="topFunction()" id="movetop" title="Go to top">
+                <span class="fa fa-angle-up"></span>
+            </button>
+        </div>
+    </div>
+
+</footer>
+
